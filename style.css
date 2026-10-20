@@ -10996,3 +10996,16 @@ body.site-shell .plans-page-v38.plans-v63 .campus-plan-cards-section .plans-card
 body.site-shell .plans-page-v38.plans-v63 .campus-plan-cards-section .campus-card>.campus-educator-box:not(.campus-every-gets){flex:1 0 auto}
 body.site-shell .plans-page-v38.plans-v63 .campus-plan-cards-section .campus-card>.campus-every-gets{flex:0 0 auto}
 }
+
+/* Individuals: analytics heading and three-image gallery. */
+body.home-landing.guide-v51 .v67-analytics{display:block}
+body.home-landing.guide-v51 .v102-analytics-heading{display:flex;align-items:center;gap:20px;margin-bottom:18px}
+body.home-landing.guide-v51 .v102-analytics-heading h3{font-size:clamp(24px,2.4vw,34px);line-height:1.15;letter-spacing:-.055em;color:#253b44;margin:0;min-width:0}
+body.home-landing.guide-v51 .v67-analytics .how-step-copy p{max-width:none}
+body.home-landing.guide-v51 .v102-analytics-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:28px;align-items:start}
+body.home-landing.guide-v51 .v102-analytics-gallery figure{margin:0;min-width:0}
+body.home-landing.guide-v51 .v102-analytics-gallery img{display:block;width:100%;height:auto;border-radius:12px}
+@media(max-width:650px){
+body.home-landing.guide-v51 .v102-analytics-heading{gap:12px}
+body.home-landing.guide-v51 .v102-analytics-gallery{gap:8px}
+}
