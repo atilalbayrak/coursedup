@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2M15NYWWJ5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2M15NYWWJ5');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Plan Pilot — CoursedUp</title>
+    <meta name="description" content="Try Campus Premium free for one term through a structured pilot program with your own educators.">
+    <link rel="icon" type="image/svg+xml" href="images/coursedup_logo.svg">
+    <link rel="alternate icon" type="image/png" href="images/coursedup_logo.png">
+    <link rel="stylesheet" href="style.css?v=92">
+<style>
+.pilot-plan{
+  --brand:#117999; --brand-d:#0d5f78; --brand-l:#e7f2f5; --brand-xl:#f3f9fa;
+  --ink:#16303a; --ink-2:#4a626b; --ink-3:#7d9098;
+  --line:#dbe7eb; --bg:#ffffff; --on-brand:#ffffff;
+  --font:"Open Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --r:14px;
+  color-scheme:light;
+}
+.pilot-plan *{box-sizing:border-box}
+.pilot-plan{margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);line-height:1.6;font-size:16px}
+.pilot-plan a{color:var(--brand);text-decoration:none}
+.pilot-plan .btn:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+.pilot-plan .wrap{max-width:960px;margin:0 auto;padding-block:48px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:44px}
+.pilot-plan h1, .pilot-plan h2, .pilot-plan h3{line-height:1.2;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.pilot-plan p{margin:0}
+.pilot-plan .eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.pilot-plan h2{font-size:1.3rem;font-weight:800}
+.pilot-plan section{display:grid;gap:16px}
+.pilot-plan .intro{display:grid;gap:10px}
+.pilot-plan .intro h1{font-size:clamp(1.7rem,3.4vw,2.3rem);font-weight:800}
+.pilot-plan .intro p{color:var(--ink-2);font-size:1.05rem;max-width:62ch}
+.pilot-plan .top{display:grid;grid-template-columns:1.2fr .9fr;gap:40px;align-items:center}
+.pilot-plan .offer{background:var(--bg);border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px -14px rgba(17,121,153,.28);padding:24px 26px}
+.pilot-plan .offer .eyebrow{display:block;margin-bottom:10px}
+.pilot-plan .offer dl{margin:0}
+.pilot-plan .offer dl div{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.pilot-plan .offer dl div:last-child{border-bottom:0}
+.pilot-plan .offer dt{color:var(--ink-3);font-weight:600}
+.pilot-plan .offer dd{margin:0;font-weight:700;text-align:right}
+.pilot-plan .offer .free{color:var(--brand)}
+@media(max-width:820px){.pilot-plan .top{grid-template-columns:1fr;gap:28px}
+}
+.pilot-plan .need{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pilot-plan .need div{display:flex;gap:12px;align-items:flex-start;padding:16px 18px;border:1px solid var(--line);border-radius:var(--r)}
+.pilot-plan .need i{flex:none;width:26px;height:26px;border-radius:50%;background:var(--brand-l);color:var(--brand);font-style:normal;font-weight:800;display:grid;place-items:center;font-size:.85rem}
+.pilot-plan .need p{font-size:.95rem}
+.pilot-plan .need b{display:block}
+.pilot-plan .need span{color:var(--ink-2);font-size:.88rem}
+.pilot-plan .lede{color:var(--ink-2)}
+@media(max-width:760px){.pilot-plan .need{grid-template-columns:1fr}
+}
+.pilot-plan .get{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pilot-plan .get .col{border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;display:grid;gap:10px;align-content:start}
+.pilot-plan .get .col.inst{background:var(--brand-xl);border-color:var(--brand)}
+.pilot-plan .get h3{font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--brand)}
+.pilot-plan .get ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.pilot-plan .get li{font-size:.94rem;color:var(--ink-2);padding-left:18px;position:relative}
+.pilot-plan .get li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--brand)}
+.pilot-plan .get li b{color:var(--ink);display:inline-block;margin-bottom:2px}
+@media(max-width:700px){.pilot-plan .get{grid-template-columns:1fr}
+}
+.pilot-plan .cta{display:flex;justify-content:space-between;align-items:center;gap:16px 24px;flex-wrap:wrap;padding:22px 24px;border-radius:var(--r);background:var(--brand);color:var(--on-brand)}
+.pilot-plan .cta p{font-weight:600;max-width:52ch}
+.pilot-plan .btn{display:inline-flex;padding:11px 20px;border-radius:10px;font-weight:600;font-size:.95rem;background:var(--bg);color:var(--brand);transition:background .2s}
+.pilot-plan .btn:hover{background:var(--brand-l)}
+@media(prefers-reduced-motion:reduce){.pilot-plan *{transition:none!important}
+}
+.pilot-plan{flex:1}
+.pilot-plan .btn{max-width:100%;text-align:center;justify-content:center}
+</style>
+</head>
+<body class="site-shell">
+    <header class="site-header" id="siteHeader">
+    <div class="nav-shell">
+        <a class="brand" href="index" aria-label="CoursedUp home"><img src="images/coursedup_logotype.png" alt="CoursedUp" width="142" height="25"></a>
+        <nav class="desktop-nav" aria-label="Primary navigation"><a href="for-individuals">For Individuals</a><a href="for-institutions">For Institutions</a><a href="plans">Plans</a><a href="resources">Resources</a><a href="veu">VEU</a></nav>
+        <div class="nav-actions">
+            <div class="header-socials">
+                <a href="https://coursedup.substack.com/" target="_blank" rel="noopener noreferrer" aria-label="CoursedUp on Substack">
+                    <svg viewbox="0 0 24 24" width="24" height="24" fill="#117999" aria-hidden="true"><path d="M3 3h18v2H3V3zm0 4h18v2H3V7zm0 4h18v10l-9-5-9 5V11z"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/coursedup/" target="_blank" rel="noopener noreferrer" aria-label="CoursedUp on LinkedIn">
+                    <svg viewbox="0 0 24 24" width="24" height="24" fill="#117999" aria-hidden="true"><path d="M5.34 3.5A2.34 2.34 0 1 1 5.34 8.18 2.34 2.34 0 0 1 5.34 3.5zM3.32 9.75h4.04V21H3.32V9.75zm6.56 0h3.87v1.54h.05c.54-1.02 1.86-2.1 3.83-2.1 4.1 0 4.85 2.7 4.85 6.2V21h-4.03v-4.97c0-1.19-.02-2.71-1.65-2.71-1.66 0-1.91 1.29-1.91 2.62V21h-4.04V9.75z"></path></svg>
+                </a>
+            </div>
+            <a class="login-link" href="https://app.coursedup.com/">Login</a>
+            <a class="login-join v84-button" href="https://app.coursedup.com/">Start Free</a>
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu"><span></span><span></span></button>
+        </div>
+    </div>
+    <div class="mobile-panel" id="site-menu"><a class="mobile-primary-link" href="for-individuals">For Individuals</a><a class="mobile-primary-link" href="for-institutions">For Institutions</a><a class="mobile-primary-link" href="plans">Plans</a><a class="mobile-primary-link" href="resources">Resources</a><a class="mobile-primary-link" href="veu">VEU</a><a class="mobile-secondary-link" href="team">Team</a>
+        <a class="mobile-secondary-link" href="terms">Terms of Use</a>
+        <a class="mobile-secondary-link" href="privacy">Privacy Policy</a>
+        <a class="mobile-secondary-link" href="cookie">Cookie Policy</a>
+        <a class="mobile-secondary-link" href="mailto:support@coursedup.com">Contact Us</a>
+        <div class="mobile-socials">
+            <a href="https://coursedup.substack.com/" target="_blank" rel="noopener noreferrer" aria-label="CoursedUp on Substack">
+                <svg viewbox="0 0 24 24" width="24" height="24" fill="#117999" aria-hidden="true"><path d="M3 3h18v2H3V3zm0 4h18v2H3V7zm0 4h18v10l-9-5-9 5V11z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/coursedup/" target="_blank" rel="noopener noreferrer" aria-label="CoursedUp on LinkedIn">
+                <svg viewbox="0 0 24 24" width="24" height="24" fill="#117999" aria-hidden="true"><path d="M5.34 3.5A2.34 2.34 0 1 1 5.34 8.18 2.34 2.34 0 0 1 5.34 3.5zM3.32 9.75h4.04V21H3.32V9.75zm6.56 0h3.87v1.54h.05c.54-1.02 1.86-2.1 3.83-2.1 4.1 0 4.85 2.7 4.85 6.2V21h-4.03v-4.97c0-1.19-.02-2.71-1.65-2.71-1.66 0-1.91 1.29-1.91 2.62V21h-4.04V9.75z"></path></svg>
+            </a>
+        </div>
+        <div class="mobile-auth-actions">
+            <a class="mobile-login-link" href="https://app.coursedup.com/">Login</a>
+            <a class="mobile-login-join v84-button" href="https://app.coursedup.com/">Start Free</a>
+        </div>
+    </div>
+</header>
+
+    <main class="pilot-plan">
+<div class="wrap">
+  <div class="top">
+    <header class="intro">
+      <span class="eyebrow">Campus Plan Pilot</span>
+      <h1>Become a founding institution.</h1>
+      <p>Try Campus Premium free for one term and observe how CoursedUp works through a structured pilot program with your own educators before an institution-wide decision. Explore and shape a new approach to teaching.</p>
+    </header>
+    <aside class="offer" aria-label="Pilot at a glance">
+      <span class="eyebrow">Pilot at a glance</span>
+      <dl>
+        <div><dt>Duration</dt><dd>6-15 weeks</dd></div>
+        <div><dt>Unit</dt><dd>1-2 academic units</dd></div>
+        <div><dt>Participants</dt><dd>15–30 volunteer educators</dd></div>
+        <div><dt>Plan</dt><dd>Campus Premium</dd></div>
+        <div><dt>Set-up</dt><dd>1 day, no IT integration</dd></div>
+        <div><dt>Fee</dt><dd class="free">Free during the pilot</dd></div>
+      </dl>
+    </aside>
+  </div>
+
+  <section aria-labelledby="t3">
+    <h2 id="t3">What you get during the pilot</h2>
+    <div class="get">
+      <div class="col">
+        <h3>For your educators</h3>
+        <ul>
+          <li><b>Practical resources for faculty development.</b> Give participating instructors opportunities to discover teaching activities, develop new ideas with AI, and explore approaches beyond their usual classroom routines.</li>
+          <li><b>Opportunities for collegial exchange.</b> Explore ways to make teaching practices more discoverable and encourage voluntary sharing among colleagues and departments.</li>
+          <li><b>An opportunity to shape the platform.</b> Share practical feedback that helps inform CoursedUp's development for real university teaching environments.</li>
+        </ul>
+      </div>
+      <div class="col inst">
+        <h3>For your institution</h3>
+        <ul>
+          <li><b>Evidence to guide future decisions.</b> Evaluate real usage, repeat engagement, instructor feedback, and implementation barriers before considering a broader initiative.</li>
+          <li><b>A direct founding-partner relationship.</b> Work directly with the CoursedUp team during the pilot and contribute to shaping its future direction.</li>
+          <li><b>Complimentary pilot participation.</b> Selected institutions receive the agreed pilot access and support without a participation fee for the defined pilot period. There is no obligation to purchase a subscription or expand after the pilot.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t2">
+    <h2 id="t2">All we need from you</h2>
+    <p class="lede">We handle set-up, onboarding and support. Your side is three small things.</p>
+    <div class="need">
+      <div><i>✓</i><p><b>A list of volunteers</b><span>15–30 educators willing to try it</span></p></div>
+      <div><i>✓</i><p><b>One contact person</b><span>Ideally from your Teaching and Learning Center</span></p></div>
+      <div><i>✓</i><p><b>A results meeting</b><span>At the end of term, to review the report together</span></p></div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <p>Start with a 30-minute call to choose the pilot unit and your contact person.</p>
+    <a class="btn" href="https://coursedup.com/for-institutions">Schedule an info session</a>
+  </div>
+</div>
+    </main>
+
+<section class="cta-section" style="background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.15) 15%, rgba(255,255,255,.35) 45%, rgba(255,255,255,.94) 65%, rgba(255,255,255,1) 100%), url('images/footer10.jpg');">
+        <img class="v101-mobile-cta-image" src="images/footer10.jpg" alt="" loading="lazy" decoding="async" width="1920" height="720">
+        <div class="container" style="display: flex; justify-content: flex-end; width: 100%;">
+            <div class="cta-content">
+                <h2>Let your course<br>live forever</h2>
+                </div>
+        </div>
+    </section>
+
+    <footer class="site-footer-v86">
+    <div class="footer-shell">
+        <div class="footer-main">
+            <div class="footer-brand"><img src="images/coursedup_logotype.png" alt="CoursedUp" width="210" height="37"></div>
+            <div class="footer-links">
+                <a href="team">Team</a>
+                <a href="terms">Terms of Use</a>
+                <a href="privacy">Privacy Policy</a>
+                <a href="cookie">Cookie Policy</a>
+                <a href="mailto:support@coursedup.com">Contact Us</a>
+            </div>
+        </div>
+        <div class="copyright">© 2026 Apkors AŞ. CoursedUp® is a registered trademark of Apkors AŞ.</div>
+    </div>
+</footer>
+
+<button onclick="basaDon()" id="yukariCikButonu" title="UP">⇧</button>
+    <script src="script.js?v=66"></script>
+</body>
+</html>
